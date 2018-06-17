@@ -9,6 +9,7 @@ module.exports = Somar;
 
 Somar.fazSoma = function(a,b) {
     return (a + b);
+
 }
 
 

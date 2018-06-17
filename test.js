@@ -14,7 +14,7 @@ describe('Soma de 2 inteiros', function(){
 
         });
     });
-    describe('Soma entre 5 e 2', function(){
+    describe('Soma entre 5 e 2 ', function(){
 
         it('A soma é 2', function(){
             var aux = Soma.fazSoma(5,2);
