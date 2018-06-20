@@ -1,17 +1,9 @@
 'use strict';
 
-var Somar = function somar(a,b) {
-    this.a = a;
-    this.b = b;
-}
-
+var Somar = function somar() {}
 module.exports = Somar;
 
 Somar.fazSoma = function(a,b) {
     return (a + b);
 
 }
-
-
-
-

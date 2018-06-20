@@ -3,7 +3,7 @@ var chai = require('chai'),
     should = chai.should();
 
 var Forca = require('./Forca.js');
-Forca.forca = "Banana";
+Forca.forca("Banana");
 
 describe('Jogo da Forca, palavra = Banana ', function(){
 
@@ -16,7 +16,7 @@ describe('Jogo da Forca, palavra = Banana ', function(){
   });
 
   it(",Retorna verdadeiro se a letra A está na palavra", function() {
-    expect(Forca.letra("a")).to.equal(true);
+    expect(Forca.letra('a')).to.equal(true);
   });
 
   it(",Retorna falso se a letra Z não está na palavra", function() {
@@ -24,7 +24,7 @@ describe('Jogo da Forca, palavra = Banana ', function(){
   });
 
   it("Vai revelar aonde a letra escolhida se encaixa, e mostrando '-' nas letras ainda não reveladas", function() {
-    expect(Forca.revela("a")).to.eql("-a-a-a");
+    expect(Forca.revela('a')).to.eql("-a-a-a");
   });
 
 });
